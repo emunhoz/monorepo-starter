@@ -5,6 +5,9 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "version:ci": "lerna version --yes --conventional-commits --create-release github --message 'chore(release): publish'"
+  },
   "engines": {
     "node": ">=v18.12.1"
   },
