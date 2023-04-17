@@ -5,12 +5,23 @@
   "workspaces": [
     "packages/*"
   ],
-  "scripts": {
-    "version:ci": "lerna version --yes --conventional-commits --create-release github --message 'chore(release): publish'"
-  },
   "engines": {
     "node": ">=v18.12.1"
   },
+  "scripts": {
+    "version:ci": "lerna version --yes --conventional-commits --create-release github --message 'chore(release): publish'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emunhoz/monorepo-starter.git"
+  },
+  "keywords": [],
+  "author": "eder <edermunhozsantos@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emunhoz/monorepo-starter/issues"
+  },
+  "homepage": "https://github.com/emunhoz/monorepo-starter#readme",
   "devDependencies": {
     "lerna": "^6.6.1"
   }
