@@ -1,0 +1,14 @@
+{
+  "name": "monorepo-starter",
+  "description": "Monorepo starter template",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">=v18.12.1"
+  },
+  "devDependencies": {
+    "lerna": "^6.6.1"
+  }
+}
