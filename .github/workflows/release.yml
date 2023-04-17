@@ -42,7 +42,7 @@ jobs:
 
       - name: Bump versions
         run: |
-          npm run version:ci
+          yarn version:ci
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           GH_USER: ${{ secrets.GH_USER }}
