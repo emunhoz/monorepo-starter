@@ -3,7 +3,8 @@
   "description": "Monorepo starter template",
   "private": true,
   "workspaces": [
-    "packages/*"
+    "packages/*",
+    "apps/*"
   ],
   "engines": {
     "node": ">=v18.12.1"
