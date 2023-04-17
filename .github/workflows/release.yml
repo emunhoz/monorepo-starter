@@ -27,7 +27,7 @@ jobs:
           node-version: 18
 
       - name: Install deps
-        run: npm i
+        run: yarn
 
       - name: Create .npmrc
         run: |
