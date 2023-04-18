@@ -1,0 +1,16 @@
+{
+  "name": "test-config",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Test config for Vitest and Testing library",
+  "main": "index.ts",
+  "types": "index.ts",
+  "license": "ISC",
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^14.0.0",
+    "@vitest/coverage-c8": "^0.30.1",
+    "jsdom": "^21.1.1",
+    "vitest": "^0.30.1"
+  }
+}
