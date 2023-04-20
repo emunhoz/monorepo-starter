@@ -10,4 +10,7 @@ export default defineConfig({
     environment: 'jsdom',
     setupFiles: 'test-config',
   },
+  server: {
+    host: true
+  },
 })

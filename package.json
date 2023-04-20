@@ -10,7 +10,8 @@
     "node": ">=v18.12.1"
   },
   "scripts": {
-    "version:ci": "lerna version --yes --conventional-commits --create-release github --message 'chore(release): publish'"
+    "version:ci": "lerna version --yes --conventional-commits --create-release github --message 'chore(release): publish'",
+    "start": "lerna run dev --parallel"
   },
   "repository": {
     "type": "git",
