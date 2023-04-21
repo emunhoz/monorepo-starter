@@ -9,6 +9,3 @@ expect.extend(matchers)
 afterEach(() => {
   cleanup()
 })
-
-export * from 'vitest'
-export * from '@testing-library/react'

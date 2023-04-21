@@ -1,4 +1,5 @@
-import { describe, test, render, screen } from 'test-config'
+import { describe, test } from 'vitest'
+import { screen, render  } from '@testing-library/react'
 import { Button } from './Button'
 
 describe('[Component]: Button', () => {
