@@ -16,6 +16,14 @@ Host multiple applications with automated independent package versioning using [
 
 In the root folder run following commands:
 
+```bash
+  docker-compose up -d
+```
+
+Running at [http://0.0.0.0:5173/](http://0.0.0.0:5173/)
+
+or
+
 1. Install dependencies
 
 ```bash
@@ -24,8 +32,13 @@ In the root folder run following commands:
 
 2. Run your project
 ```bash
+  npm run start
+```
+
+Also, you could use
+```bash
   # npm start -w appName  # Run build and watch for changes for specific package
-  npm run dev -w ui
+  npm start -w web
 ```
 
 ## ⚠️ Requirements
